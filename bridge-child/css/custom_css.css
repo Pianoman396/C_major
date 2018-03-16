@@ -1,0 +1,66 @@
+
+
+.q_list.circle ul>li:before {
+background-color: #303030;
+width: 4px;
+height: 4px;
+margin: 2px 0 0 0;
+}
+.q_list.circle ul>li {
+font-size: 13px;
+font-weight: 500;
+padding: 0 0 0 21px;
+margin: 0 0 12px;
+}
+.qbutton {
+font-size: 11px;
+letter-spacing: 0.6px;
+height: 38px;
+line-height: 39px;
+padding: 0 21px;
+border-radius: 2px;
+}
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text {
+text-align: center;
+}
+header.light:not(.sticky):not(.scrolled) .header_bottom_right_widget_holder a.qbutton {
+background-color: #fff!important; 
+color: #303030!important;
+}
+header.light:not(.sticky):not(.scrolled) .header_bottom_right_widget_holder a.qbutton:hover {
+background-color: #1abc9c!important; 
+border-color: #1abc9c!important; 
+color: #fff!important;
+}
+.testimonials_holder .flex-direction-nav li {
+margin-top: 60px;
+}
+.testimonial_image_holder {
+margin: 0px 0 39px;
+}
+.q_icon_with_title .icon_title {
+padding: 0 0 16px 0;
+}
+
+.header_bottom_right_widget_holder{
+    padding: 0px;
+}
+
+.vc_custom_1455031145900 .image_hover .images_holder img{
+    transition-duration: 0s;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .header_bottom{
+        padding: 0px 15px;
+    }
+
+    header .header_inner_left{
+        left: 15px;
+    }
+
+    nav.main_menu>ul>li>a{
+        padding: 0px 7px;
+        font-size: 11px;
+    }
+}
